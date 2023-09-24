@@ -26,8 +26,8 @@ function Hero() {
                 barbie cat
               </p>
               <p className="text-white-main text-center lg:text-left font-comfortaa text-[20px] md:text-[26px] font-normal">
-                the most memeable memecoin in existence. The dogs have had their
-                day, it’s time for Pepe to take reign.
+              The realm where cats reign supreme in the realm of memecoins,
+              A community driven token with renounced contract.
               </p>
             </Fade>
             {/* ===> social links */}
@@ -39,13 +39,13 @@ function Hero() {
                       {index === 0 || index === 1 ? (
                         <Link
                           key={index}
-                          href="#"
+                          href={soc.path}
                           className="w-[50px] md:w-[65px] h-[50px] md:h-[65px] rounded-full hover:scale-110 transition-transform duration-300 flex justify-center items-center bg-black-main"
                         >
                           {soc.icon}
                         </Link>
                       ) : (
-                        <Link key={index} href="#">
+                        <Link key={index} href={soc.path}>
                           <div className="w-[48px] md:w-[67px] h-[48px] md:h-[67px] relative">
                             <Image
                               src={`${soc.icon}`}
@@ -71,7 +71,7 @@ function Hero() {
           >
             <div className="w-full flex justify-center lg:justify-end items-center">
               <div className="w-full max-w-[300px] md:max-w-[430px] h-[300px] md:h-[420px] relative">
-                <Image src="/logo12.png" fill alt=""></Image>
+                <Image src="/logo.png" fill alt=""></Image>
               </div>
             </div>
           </Fade>
@@ -80,8 +80,8 @@ function Hero() {
             {/* 1 button */}
             <Fade direction="up" triggerOnce>
               <div className="w-[200px] h-[58px] flex justify-center hover:bg-white-main/20 items-center border-[2px] border-white-main rounded-[30px]">
-                <button className="lowercase text-[22px] font-semibold text-white-main flex justify-center items-center gap-1">
-                  buy now
+                <button className="text-[22px] font-semibold text-white-main flex justify-center items-center gap-1">
+                Launch soon
                 </button>
               </div>
             </Fade>
@@ -94,37 +94,37 @@ function Hero() {
 
 const SocialLinks = [
   {
-    path: "",
+    path: "https://x.com/barbiecattoken",
     icon: (
       <AiOutlineTwitter className="text-[30px] md:text-[50px] text-white-main" />
     ),
   },
   {
-    path: "",
+    path: "https://t.me/BarbieCatOfficial",
     icon: (
       <FaTelegramPlane className="text-[30px] md:text-[50px] text-white-main" />
     ),
   },
-  {
-    path: "",
-    icon: "/assets/social/7.webp.png",
-  },
-  {
-    path: "",
-    icon: "/assets/social/5.webp.png",
-  },
-  {
-    path: "",
-    icon: "/assets/social/3.png",
-  },
-  {
-    path: "",
-    icon: "/assets/social/9.webp.png",
-  },
-  {
-    path: "",
-    icon: "/assets/social/6.webp.png",
-  },
+  // {
+  //   path: "",
+  //   icon: "/assets/social/7.webp.png",
+  // },
+  // {
+  //   path: "",
+  //   icon: "/assets/social/5.webp.png",
+  // },
+  // {
+  //   path: "",
+  //   icon: "/assets/social/3.png",
+  // },
+  // {
+  //   path: "",
+  //   icon: "/assets/social/9.webp.png",
+  // },
+  // {
+  //   path: "",
+  //   icon: "/assets/social/6.webp.png",
+  // },
 ];
 
 export default Hero;

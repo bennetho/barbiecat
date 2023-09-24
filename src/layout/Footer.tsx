@@ -7,7 +7,8 @@ function Footer() {
       <ComponentWrapper style="">
         <div className="w-full  h-[90px] md:h-[150px] flex justify-center items-center">
           <p className="text-[12px] md:text-[18px] text-white-main">
-            © copy right Barbie Cat !
+          &copy; <span id='date'>{new Date().getFullYear()}</span> Barbie Cat. All
+        rights reserved
           </p>
         </div>
       </ComponentWrapper>

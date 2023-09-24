@@ -18,7 +18,7 @@ function About() {
             className="w-full flex justify-center items-center"
           >
             <div className="w-full max-w-[300px] md:max-w-[500px] h-[300px] md:h-[480px] relative">
-              <Image src="/logo12.png" alt="" fill />
+              <Image src="/logo.png" alt="" fill />
             </div>
           </Fade>
           {/* ===> text */}
@@ -30,20 +30,18 @@ function About() {
             </Fade>
             <Fade direction="right" triggerOnce>
               <p className=" text-white-main xl:text-left text-center whitespace-normal font-comfortaa text-[16px] md:text-[26px] font-normal">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using Content
-                here,
+              In a quiet neighborhood, Barbie the curious cat saw a sad stray cat.
+               He asked an old cat, why some cats suffer. 
+               he said it's just how life is. 
+               But Barbie gathered friends and helped strays with food and homes. 
+              He couldn't fix everything, but he made their neighborhood better.
               </p>
             </Fade>
             <Fade direction="right" triggerOnce>
               <p className=" text-white-main xl:text-left text-center whitespace-normal font-comfortaa text-[16px] md:text-[26px] font-normal mt-4">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which dont look even
-                slightly believable. If you are going to use a passage of Lorem
-                Ipsum.
+              Barbie Cat is a token made by the community. 
+              Its goal is to help stray cats and give donation to animal shelters.
+               The contract was launch on ethereum network with ownership renounced.
               </p>
             </Fade>
           </div>

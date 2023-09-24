@@ -18,7 +18,7 @@ function RoadMap() {
           {/* ==> left image */}
           <Fade direction="left" triggerOnce className="w-full h-[320px]">
             <div className="w-full h-full justify-center items-center relative">
-              <Image src="/logo13.png" fill className="object-contain" alt="" />
+              <Image src="/logo.png" fill className="object-contain" alt="" />
             </div>
           </Fade>
           {/* ===> text */}
@@ -31,7 +31,7 @@ function RoadMap() {
             <Fade direction="up" triggerOnce>
               <div className="w-full flex min-h-[150px] flex-col justify-center items-center bg-black-main rounded-bl-[30px] rounded-tr-[30px] border-[2px] border-white-main gap-2 p-2">
                 <p className="text-white-main text-center font-comfortaa text-[16px] md:text-[22px] font-normal">
-                  Phase 1: Meme
+                  Phase 1: Memetoken
                 </p>
                 <p className="text-white-main text-center font-comfortaa text-[16px] md:text-[22px] font-normal">
                   Phase 2: Vibe and HODL
@@ -56,9 +56,9 @@ function RoadMap() {
               className="w-full text-center md:w-[70%]"
             >
               <p className=" text-white-main font-comfortaa text-[16px] md:text-[22px] font-normal">
-                All jokes aside, here is a rough sketch of $pepes path ahead. We
+              Here is a sketch of $BGCAT path ahead. We
                 dont want to give everything away on day 1, Expect surprises
-                along the way ;)
+                along the way
               </p>
             </Fade>
           </div>
@@ -98,30 +98,42 @@ function RoadMap() {
 
 const RoadMapData = [
   {
+    
     phase: "phase 1",
     list: [
-      "Launch",
-      "CoinGecko/Coinmarketcap Listings",
-      "1,000+ Holders",
-      "Get $PEPE Trending on twitter with our memetic power",
+      "Formation of Team",
+      "Website",
+      "Deploy Contract",
+      "Pre-sale",
+      "Viral Marketing",
+      "Launch Token",
+
     ],
   },
   {
     phase: "phase 2",
     list: [
-      "Community Partnerships Pepe Times digital newsletter",
-      "Formation of token gated discord group, Pepe Palace, for holders, more details tba",
-      "CEX Listings 10,000+holders",
+      "Dapp",
+      "CoinGecko/CoinMarketCap Listings",
+      "1,000+ Holders",
+      "NFT Series",
+      "Marketing",
+      "CEX Listing",
+      "Certik audit",
+      "Staking",
     ],
   },
   {
     phase: "phase 3",
     list: [
-      "Pepe themed merch, % revenues to $pepe buy and burn",
-      "Pepe Academy: details tba",
-      "Pepe Tools: details tba",
-      "T1 Exchange Listings 100,000+ holders",
-      "Flip Bitcoin",
+      "Marketing",
+      "DAO",
+      "Partnership",
+      "Staking NFT",
+      "T1 Exchange Listings",
+      "Larger T1s",
+      "Secret Utility",
+      "More Barbie Meow",
     ],
   },
 ];

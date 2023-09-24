@@ -8,7 +8,7 @@ function Team() {
       <div className="w-full max-w-[1180px] m-auto py-20 flex flex-col gap-8 mb-16">
         <Slide direction="down" triggerOnce={true}>
           <p className="w-full text-center text-[40px] md:text-[110px] uppercase font-carter font-semibold text-white-main italic">
-            Picture of Cat
+            Barbie Friends
           </p>
         </Slide>
         <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -42,7 +42,7 @@ const TeamData = [
     status: "Chief of Cat",
   },
   {
-    image: "/logo12.png",
+    image: "/logo.png",
     name: `@FAT APE BARISTA`,
     status: "Art of Cat",
   },

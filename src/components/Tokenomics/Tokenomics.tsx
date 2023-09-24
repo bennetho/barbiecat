@@ -19,20 +19,33 @@ function Tokenomics() {
           {/* ==> left */}
           <div className="w-full flex flex-col gap-8 justify-center items-center">
             <Fade direction="down" triggerOnce>
-              <p className="w-full text-center text-[22px] md:text-[36px] leading-[44px] font-carter font-semibold text-white-main italic">
-                Token Supply: <br /> 420,690,000,000,000
-              </p>
+            <div className="w-full text-center text-[22px] md:text-[36px] leading-[44px] font-carter font-semibold text-white-main italic">
+                Token Supply: 
+                <p className="w-full text-center text font-comfortaa text-[16px] md:text-[22px]">500,000,000</p>
+              </div>
+              <div className="w-full text-center text-[22px] md:text-[36px] leading-[44px] font-carter font-semibold text-white-main italic">
+                 Symbol
+                 <p className="w-full text-center text font-comfortaa text-[16px] md:text-[22px]">$BGCAT</p>
+              
+              </div>
+              <div className="w-full text-center text-[22px] md:text-[36px] leading-[44px] font-carter font-semibold text-white-main italic">
+                Ownership: 
+                <p className="w-full text-center text font-comfortaa text-[16px] md:text-[22px]">Renounced</p>
+              
+              </div>
+              <div className="w-full text-center text-[22px] md:text-[36px] leading-[44px] font-carter font-semibold text-white-main italic">
+                Liquidity:
+                <p className="w-full text-center text font-comfortaa text-[16px] md:text-[22px]">Locked</p>
+              
+              </div>
             </Fade>
             <Fade direction="left" triggerOnce>
               <div className="w-full flex flex-col gap-4 md:gap-8 bg-black-main p-6 rounded-bl-[30px] rounded-tr-[30px] border-[2px] border-white-main text-white-main font-comfortaa text-[16px] md:text-[20px] font-normal">
-                <p>No Taxes, No Bullshit. Its that simple.</p>
+                <p>3% tax on buy/sell</p>
                 <p>
-                  93.1% of the tokens were sent to the liquidity pool, LP tokens
-                  were burnt, and contract is renounced. The remaining 6.9% of
-                  the supply is being held in a multi-sig team wallet only to be
-                  used as tokens for future centralized exchange listings,
-                  bridges, and liquidity pools. This wallet is easily trackable
-                  with the ENS name “pepecexwallet.eth”
+                60% of the tokens is in liquidity pool and the smart contract is renounced. 
+                  1% of the tax goes to liquidity while the other 2% goes to marketing which will also be
+                  used for future centralized exchange listings.
                 </p>
               </div>
             </Fade>

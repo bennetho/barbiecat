@@ -17,7 +17,7 @@ function Navibar() {
           {/* ==> logo */}
           <div className="w-[120px] md:w-[140px] h-[80px]  md:h-[130px] relative">
             <Image
-              src="/logo12.png"
+              src="/logo.png"
               fill
               alt="logo-image"
               className="object-contain"
@@ -43,8 +43,8 @@ function Navibar() {
 
           {/* ==> button */}
           <div className="w-[160px] h-[53px] hidden lg:flex justify-center hover:bg-white-main/20 items-center border-[2px] border-white-main rounded-[30px]">
-            <button className="lowercase text-[22px] font-semibold text-white-main">
-              buy now
+            <button className="text-[22px] font-semibold text-white-main">
+            Launch soon
             </button>
           </div>
 
@@ -77,6 +77,8 @@ function Navibar() {
                     return (
                       <Link
                         key={index}
+                        onClick={() => setIsOpen(false)}
+                        to={navi.path}
                         href="#"
                         className="text-[22px] hover:opacity-70 text-white-main font-comfortaa font-semibold"
                       >
@@ -87,8 +89,8 @@ function Navibar() {
                 </div>
                 {/* ==> button */}
                 <div className="w-[220px] h-[55px] flex justify-center hover:bg-white-main/20 items-center border-[2px] border-white-main rounded-[30px] mt-10">
-                  <button className="lowercase text-[22px] font-semibold text-white-main">
-                    buy now
+                  <button className="text-[22px] font-semibold text-white-main">
+                  Launch soon
                   </button>
                 </div>
               </div>
@@ -102,24 +104,24 @@ function Navibar() {
 
 const navibar = [
   {
-    name: "home",
+    name: "Home",
     path: "home",
   },
   {
-    name: "about",
+    name: "About",
     path: "about",
   },
-
+  
   {
-    name: "roadmap",
+    name: "Roadmap",
     path: "roadmap",
   },
   {
-    name: "why barbie cat",
+    name: "Why Barbie",
     path: "tokenomics",
   },
   {
-    name: "picture of cat",
+    name: "Barbie Club",
     path: "team",
   },
 ];
