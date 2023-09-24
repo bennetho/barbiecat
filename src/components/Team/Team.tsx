@@ -42,7 +42,7 @@ const TeamData = [
     status: "Chief of Cat",
   },
   {
-    image: "/logo.png",
+    image: "/About33.png",
     name: `@FAT APE BARISTA`,
     status: "Art of Cat",
   },
