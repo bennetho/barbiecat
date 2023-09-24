@@ -12,7 +12,7 @@ function Tokenomics() {
       >
         <Fade direction="down" triggerOnce>
           <p className="capitalize text-[30px] md:text-[56px] font-carter font-semibold text-white-main italic">
-            AHY BARBIE CAT
+            WHY BARBIE CAT
           </p>
         </Fade>
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 mt-4 md:mt-10">
@@ -43,7 +43,7 @@ function Tokenomics() {
               <div className="w-full flex flex-col gap-4 md:gap-8 bg-black-main p-6 rounded-bl-[30px] rounded-tr-[30px] border-[2px] border-white-main text-white-main font-comfortaa text-[16px] md:text-[20px] font-normal">
                 <p>3% tax on buy/sell</p>
                 <p>
-                60% of the tokens is in liquidity pool and the smart contract is renounced. 
+                60% of the tokens will be in liquidity pool and the smart contract is renounced. 
                   1% of the tax goes to liquidity while the other 2% goes to marketing which will also be
                   used for future centralized exchange listings.
                 </p>
@@ -54,7 +54,7 @@ function Tokenomics() {
           <Fade direction="right" triggerOnce>
             <div className="w-full h-[300px] md:h-[470px] relative">
               <Image
-                src="/assets/tokenomics.png"
+                src="/assets/tokenomic.png"
                 fill
                 className="object-contain"
                 alt=""

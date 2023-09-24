@@ -45,7 +45,7 @@ function RoadMap() {
           {/* ==> right image */}
           <Fade direction="right" triggerOnce className="h-[320px] w-full">
             <div className="w-full h-full justify-center items-center relative">
-              <Image src="/logo12.png" fill className="object-contain" alt="" />
+              <Image src="/logo.png" fill className="object-contain" alt="" />
             </div>
           </Fade>
           {/*  */}
