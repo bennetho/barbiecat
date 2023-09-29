@@ -42,11 +42,14 @@ function Navibar() {
           </div>
 
           {/* ==> button */}
+
+          <a href="https://gempad.app/presale/0x9B3c0E1A012F81ea6AB68Ee5E2b3F8dFffB3eF5D?chainId=1">
           <div className="w-[160px] h-[53px] hidden lg:flex justify-center hover:bg-white-main/20 items-center border-[2px] border-white-main rounded-[30px]">
             <button className="text-[22px] font-semibold text-white-main">
-            Launch soon
+            Presale Live
             </button>
           </div>
+          </a>
 
           {/* ==========> Humburger */}
           <div className="lg:hidden w-full flex justify-end items-center ">
@@ -88,11 +91,15 @@ function Navibar() {
                   })}
                 </div>
                 {/* ==> button */}
+
+                  <a href="https://gempad.app/presale/0x9B3c0E1A012F81ea6AB68Ee5E2b3F8dFffB3eF5D?chainId=1">
                 <div className="w-[220px] h-[55px] flex justify-center hover:bg-white-main/20 items-center border-[2px] border-white-main rounded-[30px] mt-10">
                   <button className="text-[22px] font-semibold text-white-main">
-                  Launch soon
+                Presale Live
+                
                   </button>
                 </div>
+                  </a>
               </div>
             </Drawer>
           </div>

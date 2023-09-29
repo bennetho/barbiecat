@@ -30,10 +30,10 @@ function About() {
             </Fade>
             <Fade direction="right" triggerOnce>
               <p className=" text-white-main xl:text-left text-center whitespace-normal font-comfortaa text-[16px] md:text-[26px] font-normal">
-              In a quiet neighborhood, Barbie the curious cat saw a sad stray cat.
-               He asked an old cat, why some cats suffer. 
-               he said it's just how life is. 
-               But Barbie gathered friends and helped strays with food and homes. 
+              Barbie Cat lives in a perfect world. 
+              But when she got to the real world, 
+              She discover that there are lots of sad stray cat. 
+              So Barbie gathered friends and helped strays with food and homes. 
               He couldn't fix everything, but he made their neighborhood better.
               </p>
             </Fade>
@@ -41,7 +41,7 @@ function About() {
               <p className=" text-white-main xl:text-left text-center whitespace-normal font-comfortaa text-[16px] md:text-[26px] font-normal mt-4">
               Barbie Cat is a token made by the community. 
               Its goal is to help stray cats and give donation to animal shelters.
-               The contract was launch on ethereum network with ownership renounced.
+               The contract was deployed on ethereum network with ownership renounced.
               </p>
             </Fade>
           </div>
