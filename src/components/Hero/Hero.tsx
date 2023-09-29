@@ -76,16 +76,20 @@ function Hero() {
             </div>
           </Fade>
           {/* ====> buttons */}
+          <Link href="https://gempad.app/presale/0x9B3c0E1A012F81ea6AB68Ee5E2b3F8dFffB3eF5D?chainId=1">
+
           <div className="w-full col-span-1 lg:col-span-3 flex flex-wrap gap-4 justify-center lg:justify-start items-center">
             {/* 1 button */}
             <Fade direction="up" triggerOnce>
               <div className="w-[200px] h-[58px] flex justify-center hover:bg-white-main/20 items-center border-[2px] border-white-main rounded-[30px]">
                 <button className="text-[22px] font-semibold text-white-main flex justify-center items-center gap-1">
-                Launch soon
+                Presale Live
+                
                 </button>
               </div>
             </Fade>
           </div>
+          </Link>
         </div>
       </div>
     </ComponentWrapper>
