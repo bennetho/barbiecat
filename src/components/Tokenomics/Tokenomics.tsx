@@ -43,9 +43,9 @@ function Tokenomics() {
               <div className="w-full flex flex-col gap-4 md:gap-8 bg-black-main p-6 rounded-bl-[30px] rounded-tr-[30px] border-[2px] border-white-main text-white-main font-comfortaa text-[16px] md:text-[20px] font-normal">
                 <p>3% tax on buy/sell</p>
                 <p>
-                60% of the tokens from the presale will be in liquidity pool and the smart contract is renounced. 
+               
                   1% of the tax goes to liquidity while the other 2% goes to marketing which will also be
-                  used for future centralized exchange listings.
+                  used for future marketing. Contract will be Renounced after launch.
                 </p>
               </div>
             </Fade>

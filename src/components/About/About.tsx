@@ -41,7 +41,7 @@ function About() {
               <p className=" text-white-main xl:text-left text-center whitespace-normal font-comfortaa text-[16px] md:text-[26px] font-normal mt-4">
               Barbie Cat is a token made by the community. 
               Its goal is to help stray cats and give donation to animal shelters.
-               The contract was deployed on ethereum network with ownership renounced.
+               The contract was deployed on bsc network with ownership renounced after launch.
               </p>
             </Fade>
           </div>

@@ -104,8 +104,7 @@ const RoadMapData = [
       "Formation of Team",
       "Website",
       "Deploy Contract",
-      "Pre-sale",
-      "Viral Marketing",
+      "Marketing",
       "Launch Token",
 
     ],
@@ -113,7 +112,7 @@ const RoadMapData = [
   {
     phase: "phase 2",
     list: [
-      "Dapp",
+   
       "CoinGecko/CoinMarketCap Listings",
       "1,000+ Holders",
       "NFT Series",

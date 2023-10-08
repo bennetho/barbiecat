@@ -26,6 +26,7 @@ function Hero() {
                 barbie cat
               </p>
               <p className="text-white-main text-center lg:text-left font-comfortaa text-[20px] md:text-[26px] font-normal">
+              Enter the enchanting universe of Barbie Cat, 
               The realm where cats reign supreme in the realm of memecoins,
               A community driven token with renounced contract.
               </p>
@@ -82,10 +83,10 @@ function Hero() {
             <Fade direction="up" triggerOnce>
               <div className="w-[200px] h-[58px] flex justify-center hover:bg-white-main/20 items-center border-[2px] border-white-main rounded-[30px]">
                 <button className="text-[22px] font-semibold text-white-main flex justify-center items-center gap-1">
-          <Link href="https://gempad.app/presale/0x9B3c0E1A012F81ea6AB68Ee5E2b3F8dFffB3eF5D?chainId=1">
-                Presale Live
+          {/* <Link href="https://gempad.app/presale/0x9B3c0E1A012F81ea6AB68Ee5E2b3F8dFffB3eF5D?chainId=1"> */}
+                Launch Soon
                 
-          </Link>
+          {/* </Link> */}
                 </button>
               </div>
             </Fade>
