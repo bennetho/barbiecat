@@ -89,7 +89,7 @@ function Hero() {
           </Link>
                 </button>
               </div>
-              <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">
+              <span className="inline-flex items-center rounded-md bg-blue-300 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">
                
                 <Link href="https://github.com/freshcoins/Smart-Contract-Audits/blob/main/BarbieCat_0xc24B983a769Aed490D78708001790f7AC6D62b1F.pdf"> Audit </Link>
                 </span>
