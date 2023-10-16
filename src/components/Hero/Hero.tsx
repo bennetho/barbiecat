@@ -26,9 +26,9 @@ function Hero() {
                 barbie cat
               </p>
               <p className="text-white-main text-center lg:text-left font-comfortaa text-[20px] md:text-[26px] font-normal">
-              Enter the enchanting universe of Barbie Cat, 
-              The realm where cats reign supreme in the realm of memecoins,
-              A community driven token with renounced contract.
+              Enter the enchanting universe of Barbie Cat
+              in collaboration with MelegaSwap, You
+              generate awesome rewards through yield farming & staking pool– it's a win-win!
               </p>
             </Fade>
             {/* ===> social links */}
@@ -83,12 +83,16 @@ function Hero() {
             <Fade direction="up" triggerOnce>
               <div className="w-[200px] h-[58px] flex justify-center hover:bg-white-main/20 items-center border-[2px] border-white-main rounded-[30px]">
                 <button className="text-[22px] font-semibold text-white-main flex justify-center items-center gap-1">
-          {/* <Link href="https://gempad.app/presale/0x9B3c0E1A012F81ea6AB68Ee5E2b3F8dFffB3eF5D?chainId=1"> */}
-                Launch Soon
+          <Link href="https://gempad.app/presale/0x2cb155a7E8FD8960cA7C51F94eF7bEd3CfD8181F?chainId=56">
+                Fair Launch Sale
                 
-          {/* </Link> */}
+          </Link>
                 </button>
               </div>
+              <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">
+               
+                <Link href="https://github.com/freshcoins/Smart-Contract-Audits/blob/main/BarbieCat_0xc24B983a769Aed490D78708001790f7AC6D62b1F.pdf"> Audit </Link>
+                </span>
             </Fade>
           </div>
         </div>
