@@ -37,8 +37,9 @@ function Footer() {
       <ComponentWrapper style="">
         <div className="w-full  h-[90px] md:h-[150px] flex justify-center items-center">
           <p className="text-[12px] md:text-[18px] text-white-main">
-          &copy; <span id='date'>{new Date().getFullYear()}</span> Barbie Cat. All
-        rights reserved
+            Email us: Barbiecat50@gmail.com <br/>
+        <div>&copy; <span id='date'>{new Date().getFullYear()}</span> Barbie Cat. All
+        rights reserved</div>  
           </p>
         </div>
       </ComponentWrapper>

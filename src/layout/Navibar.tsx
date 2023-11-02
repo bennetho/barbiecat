@@ -43,10 +43,10 @@ function Navibar() {
 
           {/* ==> button */}
 
-          <a href="https://gempad.app/presale/0x2cb155a7E8FD8960cA7C51F94eF7bEd3CfD8181F?chainId=56">
+          <a href="https://melega.finance/swap?outputCurrency=0xc24B983a769Aed490D78708001790f7AC6D62b1F">
           <div className="w-[160px] h-[53px] hidden lg:flex justify-center hover:bg-white-main/20 items-center border-[2px] border-white-main rounded-[30px]">
             <button className="text-[22px] font-semibold text-white-main">
-            Fair Launch
+            Buy Now
             </button>
           </div>
           </a>
@@ -92,10 +92,10 @@ function Navibar() {
                 </div>
                 {/* ==> button */}
 
-                  <a href="https://gempad.app/presale/0x2cb155a7E8FD8960cA7C51F94eF7bEd3CfD8181F?chainId=56">
+                  <a href="https://melega.finance/swap?outputCurrency=0xc24B983a769Aed490D78708001790f7AC6D62b1F">
                 <div className="w-[220px] h-[55px] flex justify-center hover:bg-white-main/20 items-center border-[2px] border-white-main rounded-[30px] mt-10">
                   <button className="text-[22px] font-semibold text-white-main">
-                  Fair Launch
+                  Buy Now
                 
                   </button>
                 </div>
